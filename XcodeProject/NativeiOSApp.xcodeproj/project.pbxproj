@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70C0F09F26E79168003A561C /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C0F09E26E79168003A561C /* UnityFramework.framework */; };
+		70C0F0A026E79168003A561C /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70C0F09E26E79168003A561C /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8B26022B22C203F30075EBAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D15FC482264A1600006315A /* Main.storyboard */; };
-		8B2D95C622C0C316006EE1AB /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2D95C422C0C316006EE1AB /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8BB25C3822C379110000E843 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 8BB25C3722C379110000E843 /* Images */; };
 		9D15FC472264A1600006315A /* MainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9D15FC462264A1600006315A /* MainViewController.mm */; };
 		9D15FC4C2264A1600006315A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D15FC4B2264A1600006315A /* Assets.xcassets */; };
@@ -17,13 +18,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8B2D95C722C0C316006EE1AB /* Embed Frameworks */ = {
+		70C0F0A126E79168003A561C /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8B2D95C622C0C316006EE1AB /* UnityFramework.framework in Embed Frameworks */,
+				70C0F0A026E79168003A561C /* UnityFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,6 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		70C0F09B26E7913A003A561C /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C0F09E26E79168003A561C /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2D95C422C0C316006EE1AB /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2D95C822C0C461006EE1AB /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
 		8BB25C3722C379110000E843 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
@@ -50,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D78DAFD2265A7FC00274039 /* UIKit.framework in Frameworks */,
+				70C0F09F26E79168003A561C /* UnityFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +95,8 @@
 		9D78DAFB2265A7FC00274039 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				70C0F09E26E79168003A561C /* UnityFramework.framework */,
+				70C0F09B26E7913A003A561C /* UnityFramework.framework */,
 				8B2D95C822C0C461006EE1AB /* ARKit.framework */,
 				9D78DAFC2265A7FC00274039 /* UIKit.framework */,
 			);
@@ -107,7 +113,7 @@
 				9D15FC3B2264A15F0006315A /* Sources */,
 				9D15FC3C2264A15F0006315A /* Frameworks */,
 				9D15FC3D2264A15F0006315A /* Resources */,
-				8B2D95C722C0C316006EE1AB /* Embed Frameworks */,
+				70C0F0A126E79168003A561C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -312,7 +318,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PYBX32A5LL;
+				DEVELOPMENT_TEAM = QFTSCH4UBJ;
 				INFOPLIST_FILE = NativeiOSApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,7 +336,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PYBX32A5LL;
+				DEVELOPMENT_TEAM = QFTSCH4UBJ;
 				INFOPLIST_FILE = NativeiOSApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
